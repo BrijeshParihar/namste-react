@@ -1,0 +1,29 @@
+npm- not fulll form - node package manager
+npm is repository- has package 
+npm init
+test command : jest
+imp -package.json is configuration for npm 
+ bunlded()--> bundled (web, parcel etc  )
+ npm install parcel -> get poarcel in our project. (if we can say without parcel our react app is just 
+ skelton but parcel give muslse to out app .. hehehe)
+
+ npm install -D parcel (-D)
+ there are two types packagedev and normal
+ dev just require for development only 
+ -D define development 
+
+ caret and tilde in package--- caret -- minor will update with version 
+tilde- if major vwrsion 
+
+
+--- 
+transative deendency-- in aa package depend b paqckage -b depenede - c
+node module - collection of package
+
+----
+npx  parcel index.html --> build and deploy on dev server
+---> npx -x - execute 
+
+npm i - here i is short form of install 
+
+
