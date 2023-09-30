@@ -26,4 +26,36 @@ npx  parcel index.html --> build and deploy on dev server
 
 npm i - here i is short form of install 
 
+=============================================
+#03
+==========
+React Elelment--- like dom element 
+react.createElement ==> Object (when we render this object to on dom then its become html )
+
+jSX- can esly merge html and js 
+
+JSX is not html inside js .
+JSX is like html syntax or SML like syntAx
+we can create react element using JSX
+JS engine olny understand - ecma-Script - ES6
+code transpile before goes to js engine(its done by parcel-package Babel basicaaly do that)
+Babel convert jSX code do that react or js can understand 
+
+JSX-> createElement--> object ---> HTMLelement(render)
+in jsx attribute in jsx as camael case 
+in jsx in not in singsl line wrappe in ()
+
+to do - bralet pair colorization 
+//React Component
+1) class based -- old based- no body use this on a days 
+2) functional component -- new way
+
+-- component start witg Capital letter 
+React function component is just noraml js fuction which return JSX 
+we can render using <component name />
+adding component inside anather component is called component composition 
+
+
+
+
 
