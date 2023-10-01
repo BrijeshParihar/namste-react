@@ -1,7 +1,3 @@
-import React from "react"
-import ReactDOM from "react-dom/client";
-//   
-
 const resObj =  [
     {
       "info": {
@@ -2031,59 +2027,4 @@ const resObj =  [
       }
     }
   ]
-
-const Header = ()=>{
-    return(
-        <div className="header">
-            <div className="logo-container">
-               <img className="logo" src="https://s3.amazonaws.com/cdn.designcrowd.com/blog/39-Food-Delivery-Logos-That-Will-Leave-You-Hungry-For-More/food-app-by-town-brandcrowd.png"/>
-            </div>
-            <div className="nav-itmes">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>contact us</li>
-                    <li>cart</li>
-                </ul>
-            </div>
-
-        </div>
-    );
-};
-const RestaurantCard = (props) =>{
-    const {resData} = props;
-    
-    return (
-        <div className="res-card">
-        <img className="res-logo" 
-        alt="res-logo" 
-        src ={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+ resData.info.cloudinaryImageId}/>
-        <h3 className="resName">{resData.info.name}</h3>
-        <h3 className="cuisines">{resData.info.cuisines.join(", ")}</h3>
-        <h3>{resData.info.avgRating}</h3>
-        <h3>{resData.info.costForTwo}</h3>
-        </div>
-    );
-};
-const Body = ()=>{
-    return (
-        <div className="body">
-            <div className="search"> Search</div>
-            <div className="res-container">
-                {
-                    resObj.map((restaurant) =><RestaurantCard key={restaurant.info.id} resData={restaurant} />)
-                    // resObj.map((restaurant) =><RestaurantCard key={index} resData={restaurant} />)
-                }
-            </div>
-        </div>
-
-    )
-};
-const AppLayout =()=>{
-    return <div className="app">
-        <Header/>
-        <Body/>
-    </div>
-};
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout/>);
+export default resObj;

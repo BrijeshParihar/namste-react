@@ -83,3 +83,8 @@
         -webkit-box-orient: vertical;
     }
     
+    .filter-btn {
+        padding: 5px;
+        cursor: pointer;
+
+    }

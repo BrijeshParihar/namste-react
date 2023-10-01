@@ -56,6 +56,45 @@ we can render using <component name />
 adding component inside anather component is called component composition 
 
 
+props- property(just argument of function )
+when we need dynamically pass data to component then we will pass as in props .
+
+
+-- config driven api 
+
+map- pls add key .
+never use kindex as key .
+only use when no unique id available 
+
+
+========================================
+= $05
+========================================
+
+export  default - only one 
+
+export named-just put export in front of data / import in {}
+
+
+--react hook--
+
+react isfast to maninpulate dom very fast.
+
+state variable :- use state. 
+
+react hook - just normal prebuild javascript fucntion 
+
+two very imp hook 
+1) useState() - superpowerful state variable - its maintaice the state of module
+const [name,setname] = useState([])
+
+we can modify this secont argument of usehook funcion 
+Whenever usestate varibale is update then react re-render the component .
+2) useEffect()
+
+
+
+
 
 
 
