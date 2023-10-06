@@ -3,3 +3,5 @@ export const CDN_URL =
 
 export const  LOGO_URL = 
 "https://s3.amazonaws.com/cdn.designcrowd.com/blog/39-Food-Delivery-Logos-That-Will-Leave-You-Hungry-For-More/food-app-by-town-brandcrowd.png";
+
+export const API_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5800226&lng=73.706594&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";

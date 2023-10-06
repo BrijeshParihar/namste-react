@@ -35,7 +35,7 @@ react.createElement ==> Object (when we render this object to on dom then its be
 jSX- can esly merge html and js 
 
 JSX is not html inside js .
-JSX is like html syntax or SML like syntAx
+JSX is like html syntax or XML like syntAx
 we can create react element using JSX
 JS engine olny understand - ecma-Script - ES6
 code transpile before goes to js engine(its done by parcel-package Babel basicaaly do that)
@@ -43,11 +43,11 @@ Babel convert jSX code do that react or js can understand
 
 JSX-> createElement--> object ---> HTMLelement(render)
 in jsx attribute in jsx as camael case 
-in jsx in not in singsl line wrappe in ()
+if jsx is not in singla line then wrap in  ()
 
 to do - bralet pair colorization 
 //React Component
-1) class based -- old based- no body use this on a days 
+1) class based -- old based- nobody use this on a days 
 2) functional component -- new way
 
 -- component start witg Capital letter 
@@ -63,7 +63,7 @@ when we need dynamically pass data to component then we will pass as in props .
 -- config driven api 
 
 map- pls add key .
-never use kindex as key .
+never use index as key .
 only use when no unique id available 
 
 
@@ -78,7 +78,7 @@ export named-just put export in front of data / import in {}
 
 --react hook--
 
-react isfast to maninpulate dom very fast.
+react is fast to maninpulate dom very fast.
 
 state variable :- use state. 
 
@@ -88,13 +88,65 @@ two very imp hook
 1) useState() - superpowerful state variable - its maintaice the state of module
 const [name,setname] = useState([])
 
-we can modify this secont argument of usehook funcion 
+we can modify this  name using second argument of usehook funcion 
+
 Whenever usestate varibale is update then react re-render the component .
 2) useEffect()
 
 
+=====
+reconciliation algo-  also called react fiber
+virtual dom --> its just represnetation of actual dom (createElement return object)
+nested object 
+
+diff algo---find out diffrence b/w previou and new virtual dom 
+
+read- acdlite -- rect fiber archetecture. 
+
+==========================================================
+= 06
+==========================================================
+
+USEEFFECT- 
+TAKE TWO  argumnet fisrt call back fuinction , second depnedency.
+FUNCTION CALL, CALL BACK FUNCTION AFTER THE RENDRING THE FUNCTION .
+
+When ever state variable update, react triggers a reconcialation cycle(re-render the component)
+reacr fiber has algo the recoliation old and new virtual dom. 
+
+
+=================
+07- 
+=================
+
+if useeffect without second argument then ueseffect called every time when our componenet render. but we can controll this by secont argument 
+
+if denendency arrary is empty. then useeffect called on intial render of component .
+if denpendency array value change then useeffect call.
+
+
+======
+Never use useState outside method body. usesTate hook is used to create local state varaible. 
+try to useState at  top in side function body. 
+not use inside if.else,condition, loop,fucntion. only in functional component. 
+
+
+rafce: crwate component 
+
+useRouteError-- give more info about error
+
+when use router thaen never use ancher tag if we use then full page got loaded . 
+instead of we use link and simpler like <a>.
+
+Link is wrapepr over acher tag.
+
+useParams
 
 
 
 
 
+
+===============================
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+===============================

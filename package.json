@@ -4,8 +4,8 @@
   "description": "This is my first react project ",
   "scripts": {
     "test": "jest ",
-    "start":"parcel index.html",
-    "build":"parcel build index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "this",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
   }
 }
